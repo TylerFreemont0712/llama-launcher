@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Llama Server
+GenericName=llama.cpp Server Launcher
+Comment=Start and monitor a local llama.cpp inference server
+Exec=bash -c 'exec "$HOME/ai/llama-launcher/launch_llama_server.sh"'
+Terminal=false
+Icon=utilities-terminal
+Categories=Development;Science;
+Keywords=llama;llm;ai;server;gguf;
+StartupNotify=true
